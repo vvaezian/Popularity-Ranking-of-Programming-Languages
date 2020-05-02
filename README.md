@@ -1,1 +1,92 @@
-# Popularity-of-Programming-Languages
+## Logic
+
+### Javascript
+```sql
+tags like '%javascript%' 
+or tags like '%jquery%' 
+or tags like '%.js%'
+```
+### Java
+```sql
+(tags like '%java%' and tags not like '%javascript%') 
+or (tags like '%javascript%' and tags like '%java[^s]%')
+```
+### Python
+```sql
+(tags like '%py%' and tags not like '%jupyter%' and tags not like '%Capybara%' and tags not like '%copy\-paste%') 
+or (tags like '%py[^t]%' and tags like '%jupyter%') 
+or tags like '%pandas%'
+```
+### PHP
+```sql
+tags like '%php%'
+```
+### Android
+```sql
+tags like '%android%'
+```
+### cpp
+```sql
+tags like '%c++%'
+```
+### C
+```sql
+tags like '%<c>%'
+```
+### csharp
+```sql
+tags like '%c#%'
+```
+### R
+```sql
+tags like '%<r>%'
+```
+### SQL_All
+```sql
+tags like '%sql%'
+```
+### MySQL
+```sql
+tags like '%mysql%'
+```
+### Oracle
+```sql
+tags like '%oracle%'
+```
+### NoSQL
+```sql
+tags like '%nosql%'
+```
+### POSTGRESQL
+```sql
+tags like '%pgsql%' or tags like '%postgresql%'
+```
+### SQL_Server
+```sql
+tags like '%tsql%' or tags like '%sql-server%'
+```
+### Scala
+```sql
+(tags like '%scala%' and tags not like '%scalability%') 
+or (tags like '%scala%' and tags like '%scalability%')
+```
+### Objective_C
+```sql
+tags like '%objective-c%'
+```
+### MATLAB
+```sql
+tags like '%matlab%'
+```
+### Ruby
+```sql
+tags like '%ruby%'
+```
+### HTML
+```sql
+tags like '%html%'
+```
+### CSS
+```sql
+tags like '%css%'
+```
