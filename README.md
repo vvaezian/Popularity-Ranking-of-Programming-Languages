@@ -21,11 +21,7 @@ or tags like '%pandas%'
 ```sql
 tags like '%php%'
 ```
-### Android
-```sql
-tags like '%android%'
-```
-### cpp
+### C++
 ```sql
 tags like '%c++%'
 ```
@@ -33,7 +29,7 @@ tags like '%c++%'
 ```sql
 tags like '%<c>%'
 ```
-### csharp
+### C#
 ```sql
 tags like '%c#%'
 ```
@@ -41,7 +37,7 @@ tags like '%c#%'
 ```sql
 tags like '%<r>%'
 ```
-### SQL_All
+### SQL (All)
 ```sql
 tags like '%sql%'
 ```
@@ -57,11 +53,11 @@ tags like '%oracle%'
 ```sql
 tags like '%nosql%'
 ```
-### POSTGRESQL
+### PostgreSQL
 ```sql
 tags like '%pgsql%' or tags like '%postgresql%'
 ```
-### SQL_Server
+### SQL Server
 ```sql
 tags like '%tsql%' or tags like '%sql-server%'
 ```
@@ -70,13 +66,9 @@ tags like '%tsql%' or tags like '%sql-server%'
 (tags like '%scala%' and tags not like '%scalability%') 
 or (tags like '%scala%' and tags like '%scalability%')
 ```
-### Objective_C
+### Objective C
 ```sql
 tags like '%objective-c%'
-```
-### MATLAB
-```sql
-tags like '%matlab%'
 ```
 ### Ruby
 ```sql
