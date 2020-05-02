@@ -57,7 +57,7 @@ or tags like '%mongodb%'
 or tags like '%dynamodb%'
 or tags like '%cassandra%'
 or tags like '%redis%'
-or tags like '%hbase%'
+or tags like '%hbase%' -- captures '%couchbase%' as well
 or tags like '%neo4j%'
 or tags like '%arangodb%'
 ```
