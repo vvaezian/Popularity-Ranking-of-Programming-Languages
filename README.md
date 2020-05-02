@@ -48,10 +48,18 @@ tags like '%mysql%'
 ### Oracle
 ```sql
 tags like '%oracle%'
+or tags like '%plsql%'
 ```
 ### NoSQL
 ```sql
 tags like '%nosql%'
+or tags like '%mongodb%'
+or tags like '%dynamodb%'
+or tags like '%cassandra%'
+or tags like '%redis%'
+or tags like '%hbase%'
+or tags like '%neo4j%'
+or tags like '%arangodb%'
 ```
 ### PostgreSQL
 ```sql
