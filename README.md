@@ -16,6 +16,7 @@ or (tags like '%javascript%' and tags like '%java[^s]%')
 (tags like '%py%' and tags not like '%jupyter%' and tags not like '%Capybara%' and tags not like '%copy\-paste%') 
 or (tags like '%py[^t]%' and tags like '%jupyter%') 
 or tags like '%pandas%'
+or tags like '%keras%'
 ```
 ### PHP
 ```sql
