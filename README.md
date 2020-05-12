@@ -38,10 +38,6 @@ tags like '%c#%'
 ```sql
 tags like '%<r>%'
 ```
-### SQL (All)
-```sql
-tags like '%sql%'
-```
 ### MySQL
 ```sql
 tags like '%mysql%'
@@ -51,7 +47,12 @@ tags like '%mysql%'
 tags like '%oracle%'
 or tags like '%plsql%'
 ```
-### NoSQL
+### SQL (All)
+```sql
+tags like '%sql%' 
+and tags not like '%nosql%'
+```
+### NoSQL (All)
 ```sql
 tags like '%nosql%'
 or tags like '%mongodb%'
