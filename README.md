@@ -49,11 +49,6 @@ tags like '%objective-c%'
 tags like '%php%'
 ```
 
-### Ruby
-```sql
-tags like '%ruby%'
-```
-
 ### Python
 ```sql
 (tags like '%py%' and tags not like '%jupyter%' and tags not like '%copy%' and tags not like '%Capybara%' ) 
@@ -68,6 +63,13 @@ or tags like '%flask%'
 ### R
 ```sql
 tags like '%<r>%'
+or tags like '%rstudio%'
+or tags like '%shiny%'
+```
+
+### Ruby
+```sql
+tags like '%ruby%'
 ```
 
 ### Scala
@@ -92,12 +94,14 @@ or tags like '%plsql%'
 
 ### PostgreSQL
 ```sql
-tags like '%pgsql%' or tags like '%postgresql%'
+tags like '%pgsql%' 
+or tags like '%postgresql%'
 ```
 
 ### SQL Server
 ```sql
-tags like '%tsql%' or tags like '%sql-server%'
+tags like '%tsql%' 
+or tags like '%sql-server%'
 ```
 
 ### SQL (All)
