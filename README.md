@@ -54,12 +54,16 @@ tags like '%php%'
 ```sql
 tags like '%ruby%'
 ```
+
 ### Python
 ```sql
-(tags like '%py%' and tags not like '%jupyter%' and tags not like '%Capybara%' and tags not like '%copy\-paste%') 
-or (tags like '%py[^t]%' and tags like '%jupyter%') 
+(tags like '%py%' and tags not like '%jupyter%' and tags not like '%copy%' and tags not like '%Capybara%' ) 
+or (tags like '%py[^t]%' and tags like '%jupyter%')  -- i.e. it is not just jupyter, it has something else py-like as well
+or (tags like '%py[^>-]%' and tags like '%copy%') 
 or tags like '%pandas%'
 or tags like '%keras%'
+or tags like '%django%'
+or tags like '%flask%'
 ```
 
 ### R
