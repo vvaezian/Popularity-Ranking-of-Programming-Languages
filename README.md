@@ -5,6 +5,8 @@
 tags like '%javascript%' 
 or tags like '%jquery%' 
 or tags like '%.js%'
+or tags like '%reactjs%'
+or tags like '%angularjs%'
 ```
 ### Java
 ```sql
@@ -41,6 +43,7 @@ tags like '%<r>%'
 ### MySQL
 ```sql
 tags like '%mysql%'
+or tags like '%mariadb%'
 ```
 ### Oracle
 ```sql
