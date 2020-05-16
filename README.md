@@ -27,8 +27,8 @@ tags like '%html%'
 
 ### Java
 ```sql
-(tags like '%java%' and tags not like '%javascript%') 
-or (tags like '%javascript%' and tags like '%java[^s]%')
+(tags like '%java%' and tags not like '%javascript%')  -- java but not javascript
+or (tags like '%javascript%' and tags like '%java[^s]%')  -- java and javascript
 ```
 
 ### Javascript
