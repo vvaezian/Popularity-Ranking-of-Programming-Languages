@@ -30,6 +30,13 @@ tags like '%html%'
 (tags like '%java%' and tags not like '%javascript%')  -- java but not javascript
 or (tags like '%javascript%' and tags like '%java[^s]%')  -- java and javascript
 or tags like '%spring%'
+or tags like '%jsf%'
+or tags like '%gwt%'
+or tags like '%vaadin%'
+or tags like '%struts%'
+or tags like '%hibernate%'
+or tags like '%dropwizard%'
+or tags like '%jenkins%'
 ```
 
 ### Javascript
