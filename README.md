@@ -35,9 +35,8 @@ or (tags like '%javascript%' and tags like '%java[^s]%')
 ```sql
 tags like '%javascript%' 
 or tags like '%jquery%' 
-or tags like '%.js%'
-or tags like '%reactjs%'
-or tags like '%angularjs%'
+or tags like '%js>%' -- tag ends with js
+or tags like '%extjs%'  -- includes extjs4 and others
 ```
 
 ### Objective C
