@@ -73,12 +73,7 @@ tags like '%<r>%'
 or (tags like '%scala%' and tags like '%scalability%')
 ```
 
-----------------------------------
-### SQL (All)
-```sql
-tags like '%sql%' 
-and tags not like '%nosql%'
-```
+## DB
 
 ### MySQL
 ```sql
@@ -100,6 +95,12 @@ tags like '%pgsql%' or tags like '%postgresql%'
 ### SQL Server
 ```sql
 tags like '%tsql%' or tags like '%sql-server%'
+```
+
+### SQL (All)
+```sql
+tags like '%sql%' 
+and tags not like '%nosql%'
 ```
 
 ### NoSQL (All)
