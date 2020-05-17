@@ -48,6 +48,13 @@ or tags like '%hibernate%'
 or tags like '%dropwizard%'
 ```
 
+### Java (Mobile)
+```sql
+tags like '%java%' 
+and tags like '%android%' 
+and tags not like '%kotlin%'
+```
+
 ### Javascript
 ```sql
 tags like '%javascript%' 
@@ -59,6 +66,11 @@ or tags like '%extjs%'  -- includes extjs4 and others
 ### Julia
 ```sql
 tags like '%julia%'
+```
+
+### Kotlin
+```sql
+tags like '%kotlin%'
 ```
 
 ### Objective C
@@ -140,6 +152,11 @@ or tags like '%sql-server%'
 ```sql
 tags like '%sql%' 
 and tags not like '%nosql%'
+```
+
+### Swift
+```sql
+tags like '%swift%'
 ```
 
 ### NoSQL (All)
