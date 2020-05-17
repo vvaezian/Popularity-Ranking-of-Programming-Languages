@@ -85,6 +85,11 @@ tags like '%ruby%'
 or (tags like '%scala%' and tags like '%scalability%')
 ```
 
+### VB.NET
+```sql
+tags like '%vb.net%'
+```
+
 ## DB
 
 ### MySQL
