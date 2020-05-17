@@ -15,9 +15,19 @@ tags like '%c++%'
 tags like '%c#%'
 ```
 
+### Clojure
+```sql
+tags like '%clojure%'
+```
+
 ### CSS
 ```sql
 tags like '%css%'
+```
+
+### Haskell
+```sql
+tags like '%haskell%'
 ```
 
 ### HTML
@@ -46,9 +56,19 @@ or tags like '%js>%' -- tag ends with js
 or tags like '%extjs%'  -- includes extjs4 and others
 ```
 
+### Julia
+```sql
+tags like '%julia%'
+```
+
 ### Objective C
 ```sql
 tags like '%objective-c%'
+```
+
+### Perl
+```sql
+tags like '%<perl%'  -- starts with perl (excluding hyPERLink, ...)
 ```
 
 ### PHP
