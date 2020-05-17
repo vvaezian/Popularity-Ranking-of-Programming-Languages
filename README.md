@@ -117,6 +117,11 @@ tags like '%ruby%'
 or (tags like '%scala%' and tags like '%scalability%')
 ```
 
+### Swift
+```sql
+tags like '%swift%'
+```
+
 ### VB.NET
 ```sql
 tags like '%vb.net%'
@@ -150,13 +155,10 @@ or tags like '%sql-server%'
 
 ### SQL (All)
 ```sql
-tags like '%sql%' 
+(tags like '%sql%' 
+or tags like '%oracle%'
+or tags like '%mariadb%')
 and tags not like '%nosql%'
-```
-
-### Swift
-```sql
-tags like '%swift%'
 ```
 
 ### NoSQL (All)
