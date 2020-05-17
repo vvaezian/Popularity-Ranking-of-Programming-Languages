@@ -36,7 +36,6 @@ or tags like '%vaadin%'
 or tags like '%struts%'
 or tags like '%hibernate%'
 or tags like '%dropwizard%'
-or tags like '%jenkins%'
 ```
 
 ### Javascript
