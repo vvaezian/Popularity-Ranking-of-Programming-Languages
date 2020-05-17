@@ -73,7 +73,7 @@ tags like '%julia%'
 tags like '%kotlin%'
 ```
 
-### Objective C
+### Objective-C
 ```sql
 tags like '%objective-c%'
 ```
