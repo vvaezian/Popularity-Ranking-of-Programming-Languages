@@ -1,4 +1,5 @@
-### Which tags are used for each programming language?
+ - ### How the measures are calculated?
+ - ### Which tags are used for each programming language?
 
 ### C
 ```sql
