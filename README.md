@@ -25,6 +25,51 @@ tags like '%clojure%'
 tags like '%css%'
 ```
 
+
+### DB - MySQL
+```sql
+tags like '%mysql%'
+or tags like '%mariadb%'
+```
+
+### DB - Oracle
+```sql
+tags like '%oracle%'
+or tags like '%plsql%'
+```
+
+### DB - PostgreSQL
+```sql
+tags like '%pgsql%' 
+or tags like '%postgresql%'
+```
+
+### DB - SQL Server
+```sql
+tags like '%tsql%' 
+or tags like '%sql-server%'
+```
+
+### DB - SQL (All)
+```sql
+(tags like '%sql%' 
+or tags like '%oracle%'
+or tags like '%mariadb%')
+and tags not like '%nosql%'
+```
+
+### DB - NoSQL (All)
+```sql
+tags like '%nosql%'
+or tags like '%mongodb%'
+or tags like '%dynamodb%'
+or tags like '%cassandra%'
+or tags like '%redis%'
+or tags like '%hbase%' -- captures '%couchbase%' as well
+or tags like '%neo4j%'
+or tags like '%arangodb%'
+```
+
 ### Haskell
 ```sql
 tags like '%haskell%'
@@ -125,52 +170,6 @@ tags like '%swift%'
 ### VB.NET
 ```sql
 tags like '%vb.net%'
-```
-
-## DB
-
-### MySQL
-```sql
-tags like '%mysql%'
-or tags like '%mariadb%'
-```
-
-### Oracle
-```sql
-tags like '%oracle%'
-or tags like '%plsql%'
-```
-
-### PostgreSQL
-```sql
-tags like '%pgsql%' 
-or tags like '%postgresql%'
-```
-
-### SQL Server
-```sql
-tags like '%tsql%' 
-or tags like '%sql-server%'
-```
-
-### SQL (All)
-```sql
-(tags like '%sql%' 
-or tags like '%oracle%'
-or tags like '%mariadb%')
-and tags not like '%nosql%'
-```
-
-### NoSQL (All)
-```sql
-tags like '%nosql%'
-or tags like '%mongodb%'
-or tags like '%dynamodb%'
-or tags like '%cassandra%'
-or tags like '%redis%'
-or tags like '%hbase%' -- captures '%couchbase%' as well
-or tags like '%neo4j%'
-or tags like '%arangodb%'
 ```
 
 
