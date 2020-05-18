@@ -1,4 +1,4 @@
-## Logic
+## Which tags are used for each programming language?
 
 ### C
 ```sql
