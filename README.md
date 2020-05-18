@@ -1,5 +1,7 @@
 - ### How the measures are calculated?
-  - Average ViewCount: sum(viewcount/(datediff(hour, creationdate, '2020-05-17 05:57:51') / 24.0)) avg_viewcount 
+  - **Average ViewCount:** sum(viewcount/(datediff(hour, creationdate, '2020-05-17 05:57:51') / 24.0)) avg_viewcount 
+  - **Question Count**:
+  - **Average Daily Count of Distinct Users:**
 - ### Which tags are used for each programming language?
 
 ### C
