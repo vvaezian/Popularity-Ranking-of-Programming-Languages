@@ -1,5 +1,6 @@
- - ### How the measures are calculated?
- - ### Which tags are used for each programming language?
+- ### How the measures are calculated?
+  - Average ViewCount: sum(viewcount/(datediff(hour, creationdate, '2020-05-17 05:57:51') / 24.0)) avg_viewcount 
+- ### Which tags are used for each programming language?
 
 ### C
 ```sql
