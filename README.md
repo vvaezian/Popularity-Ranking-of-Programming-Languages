@@ -1,3 +1,6 @@
+[![HitCount](http://hits.dwyl.com/vvaezian/https://githubcom/vvaezian/Popularity-of-Programming-Languages.svg)](http://hits.dwyl.com/vvaezian/https://githubcom/vvaezian/Popularity-of-Programming-Languages)
+[![Suggestions and Bug Reports](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://githubcom/vvaezian/Popularity-of-Programming-Languages/issues)
+
 - ### How are the measures calculated?
   - **Average ViewCount:** For posts having relevant tags, each post's viewcount is divided by the number of days it has been posted, which results in average viewcount of that post. Then these numbers are averaged over the given granularity (Yearly, Quarterly, Monthly).
   - **Question Count:** The number of posts with the relevant tag is calculated. Then these numberes are summed over the given granularity (Yearly, Quarterly, Monthly).
