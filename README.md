@@ -1,14 +1,14 @@
 [![Suggestions&BugReports_Welcome](https://img.shields.io/badge/Suggestions-BugReports-blue)](https://github.com/vvaezian/Popularity-of-Programming-Languages/issues)
 [![HitCount](http://hits.dwyl.com/vvaezian/https://githubcom/vvaezian/Popularity-of-Programming-Languages.svg)](http://hits.dwyl.com/vvaezian/https://githubcom/vvaezian/Popularity-of-Programming-Languages)
 
-- ### How are the measures calculated?
+## How are the measures calculated?
   - **Average ViewCount:** For posts having relevant tags, each post's viewcount is divided by the number of days it has been posted, which results in average viewcount of that post. Then these numbers are averaged over the given granularity (Yearly, Quarterly, Monthly).
   - **Question Count:** The number of posts with the relevant tag is calculated. Then these numberes are summed over the given granularity (Yearly, Quarterly, Monthly).
   - **Average Daily Count of Distinct Users:** In each day the number of distinct users who have asked or answered a question in the relevant tags is calculated. Then it is averaged over the given granularity (Yearly, Quarterly, Monthly).
   - **Total Views:** Total number of views for the questions in the relevant tags (limited to the given timerange). The granularity filter doesn't apply to this card.
   - **Total Question:** Total number of questions with the relevant tags (limited to the given timerange). The granularity filter doesn't apply to this card.
   
-- ### Which tags are used for each programming language?
+## Which tags are used for each programming language?
 
 ### C
 ```sql
