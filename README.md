@@ -1,7 +1,7 @@
-- ### How the measures are calculated?
-  - **Average ViewCount:** sum(viewcount/(datediff(hour, creationdate, '2020-05-17 05:57:51') / 24.0)) avg_viewcount 
-  - **Question Count**:
-  - **Average Daily Count of Distinct Users:**
+- ### How are the measures calculated?
+  - **Average ViewCount:** For posts having relevant tags, each post's viewcount is divided by the number of days it has been posted, which results in average viewcount of that post. Then these numbers are averaged over the given granularity (Yearly, Quarterly, Monthly).
+  - **Question Count**: The number of posts with the relevant tag is calculated. Then these numberes are summed over the given granularity (Yearly, Quarterly, Monthly).
+  - **Average Daily Count of Distinct Users:** In each day the number of distinct users who have asked or answered a question in the relevant tags is calculated. Then it is averaged over the given granularity (Yearly, Quarterly, Monthly).
 - ### Which tags are used for each programming language?
 
 ### C
