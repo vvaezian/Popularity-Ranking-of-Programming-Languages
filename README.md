@@ -1,7 +1,7 @@
 [![Suggestions&BugReports_Welcome](https://img.shields.io/badge/Suggestions-BugReports-blue)](https://github.com/vvaezian/Popularity-of-Programming-Languages/issues)
 [![HitCount](http://hits.dwyl.com/vvaezian/https://githubcom/vvaezian/Popularity-of-Programming-Languages.svg)](http://hits.dwyl.com/vvaezian/https://githubcom/vvaezian/Popularity-of-Programming-Languages)
 
-Use this [link](http://metabase-env.eba-sahepvmn.us-west-2.elasticbeanstalk.com/public/dashboard/f9b5e04b-9755-489d-9f5d-6adc3e3806fd) to interactively explore the data on the public dashboard.
+Use this [link](https://metabase.intellimenta.com/public/dashboard/f9b5e04b-9755-489d-9f5d-6adc3e3806fd) to interactively explore the data on the public dashboard.
 
 ## How are the measures calculated?
   - **Average ViewCount:** For posts having relevant tags, each post's viewcount is divided by the number of days it has been posted, which results in average viewcount of that post. Then these numbers are averaged over the given granularity (Yearly, Quarterly, Monthly).
