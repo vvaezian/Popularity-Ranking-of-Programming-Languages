@@ -5,6 +5,7 @@
 
 <details><summary>How are the measures calculated?</summary>
 <p>
+  
   - **Popularity Index:** Average of three measures (explaned below); View Count, Question Count and Distinct Users.
   - **Average ViewCount:** For posts with relevant tags, each post's viewcount is divided by the number of days it has been posted, which results in average viewcount of that post. Then these numbers are averaged over the given granularity (Yearly, Quarterly, Monthly).
   - **Question Count:** The number of posts with the relevant tag is calculated. Then these numberes are summed over the given granularity (Yearly, Quarterly, Monthly).
