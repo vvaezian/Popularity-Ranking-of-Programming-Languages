@@ -1,3 +1,6 @@
+### Popularity Index
+Average of the following three measures.
+
 ### Question Count
 ```sql
 SELECT DATEADD(DAY, DATEDIFF(DAY, 0, creationdate), 0) date
