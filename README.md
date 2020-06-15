@@ -33,4 +33,4 @@ See [this](https://github.com/vvaezian/Popularity-of-Programming-Languages/blob/
 This lag causes the Popularity Index be lagging one month behind as well, because it relies on all three measures.
 
 ### Contribution 
-If you have a suggestion or you want to report a bug report, please create an [issue](https://github.com/vvaezian/Popularity-of-Programming-Languages/issues).
+If you have a suggestion or you want to report a bug, please create an [issue](https://github.com/vvaezian/Popularity-of-Programming-Languages/issues).
