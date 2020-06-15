@@ -11,7 +11,7 @@
 
 For the queries see [this](https://github.com/vvaezian/Popularity-of-Programming-Languages/blob/master/queries.md) file.
   
-  - **Popularity Index:** Average of three measures (explaned below); Question Count, View Count, and Distinct Users.
+  - **Popularity Index:** Average of three measures (explained below); Question Count, View Count, and Distinct Users.
   - **Question Count:** For each day the number of posts with the relevant tag is calculated. Then these numberes are summed over the given granularity (Yearly, Quarterly, Monthly).
   - **Average ViewCount:** We have the ViewCount of posts with the relevant tags. Each post's viewcount is divided by the number of days it has been posted, which results in average viewcount of that post. For each day these average ViewCounts are summed, and then these numbers are averaged over the given granularity (Yearly, Quarterly, Monthly).
   - **Average Number of Daily Distinct Users:** In each day the number of distinct users who had an activity in the relevant tags (asked a question/answered a question/commented on a question or answer/edited a question or answer) is calculated. Then these numbers are averaged over the given granularity (Yearly, Quarterly, Monthly).
