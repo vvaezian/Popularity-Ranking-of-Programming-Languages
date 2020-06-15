@@ -6,7 +6,7 @@
 **To interactively explore the data on the public dashboard click [here](https://metabase.intellimenta.com/public/dashboard/f9b5e04b-9755-489d-9f5d-6adc3e3806fd). For the dashboard in night mode click [here](https://metabase.intellimenta.com/public/dashboard/f9b5e04b-9755-489d-9f5d-6adc3e3806fd#theme=night).**
 
 ### FAQ
-<details><summary>How are the measures calculated?</summary>
+<details><summary>How are the Popularity Index and other measures calculated?</summary>
 <p>
 
 For the queries see [this](https://github.com/vvaezian/Popularity-of-Programming-Languages/blob/master/queries.md) file.
