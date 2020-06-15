@@ -8,6 +8,8 @@
 ### FAQ
 <details><summary>How are the measures calculated?</summary>
 <p>
+
+For the queries see [this](https://github.com/vvaezian/Popularity-of-Programming-Languages/blob/master/queries.md) file.
   
   - **Popularity Index:** Average of three measures (explaned below); View Count, Question Count and Distinct Users.
   - **Average ViewCount:** For posts with relevant tags, each post's viewcount is divided by the number of days it has been posted, which results in average viewcount of that post. Then these numbers are averaged over the given granularity (Yearly, Quarterly, Monthly).
