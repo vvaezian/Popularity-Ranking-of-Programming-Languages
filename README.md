@@ -21,22 +21,22 @@
 <details><summary>Which tags are used for each programming language?</summary>
 <p>
 
-### C
+#### C
 ```sql
 tags like '%<c>%'
 ```
 
-### C++
+#### C++
 ```sql
 tags like '%c++%'
 ```
 
-### C#
+#### C#
 ```sql
 tags like '%c#%'
 ```
 
-### Clojure
+#### Clojure
 ```sql
 tags like '%clojure%'
 ```
