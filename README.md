@@ -3,13 +3,14 @@
 
 **Use this [link](https://metabase.intellimenta.com/public/dashboard/f9b5e04b-9755-489d-9f5d-6adc3e3806fd) to interactively explore the data on the public dashboard.**
 
-## How are the measures calculated?
+<details><summary>How are the measures calculated?</summary>
+<p>
   - **Average ViewCount:** For posts with relevant tags, each post's viewcount is divided by the number of days it has been posted, which results in average viewcount of that post. Then these numbers are averaged over the given granularity (Yearly, Quarterly, Monthly).
   - **Question Count:** The number of posts with the relevant tag is calculated. Then these numberes are summed over the given granularity (Yearly, Quarterly, Monthly).
   - **Average Daily Count of Distinct Users:** In each day the number of distinct users who had an activity in the relevant tags (asked a question/answered a question/commented on a question or answer/edited a question or answer) is calculated. Then these numbers are averaged over the given granularity (Yearly, Quarterly, Monthly).
   - **Total Views:** Total number of views for the questions in the relevant tags (limited to the given timerange). The granularity filter doesn't apply to this card.
   - **Total Question:** Total number of questions with the relevant tags (limited to the given timerange). The granularity filter doesn't apply to this card.
-  
+</p></details>
 ## Which tags are used for each programming language?
 
 ### C
