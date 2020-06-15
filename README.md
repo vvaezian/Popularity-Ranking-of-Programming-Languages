@@ -14,7 +14,8 @@
 
 </p></details>
 
-## Which tags are used for each programming language?
+<details><summary>Which tags are used for each programming language?</summary>
+<p>
 
 ### C
 ```sql
@@ -200,5 +201,5 @@ tags like '%typescript%'
 tags like '%vb.net%'
 ```
 
-
+</p></details>
 
