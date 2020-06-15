@@ -32,11 +32,6 @@ tags like '%c#%'
 tags like '%clojure%'
 ```
 
-### CSS
-```sql
-tags like '%css%'
-```
-
 
 ### DB - MySQL
 ```sql
@@ -87,9 +82,15 @@ or tags like '%arangodb%'
 tags like '%haskell%'
 ```
 
-### HTML
+### Go
+```sql
+tags like '%<go>%'
+```
+
+### HTML/CSS
 ```sql
 tags like '%html%'
+or tags like '%css%'
 ```
 
 ### Java
@@ -168,6 +169,12 @@ or tags like '%shiny%'
 tags like '%ruby%'
 ```
 
+### Rust
+```sql
+tags like '%rust%'
+```
+
+
 ### Scala
 ```sql
 (tags like '%scala%' and tags not like '%scalability%') 
@@ -177,6 +184,11 @@ or (tags like '%scala%' and tags like '%scalability%')
 ### Swift
 ```sql
 tags like '%swift%'
+```
+
+### TypeScript
+```sql
+tags like '%typescript%'
 ```
 
 ### VB.NET
