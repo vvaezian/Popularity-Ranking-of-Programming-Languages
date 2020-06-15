@@ -42,31 +42,31 @@ tags like '%clojure%'
 ```
 
 
-### DB - MySQL
+#### DB - MySQL
 ```sql
 tags like '%mysql%'
 or tags like '%mariadb%'
 ```
 
-### DB - Oracle
+#### DB - Oracle
 ```sql
 tags like '%oracle%'
 or tags like '%plsql%'
 ```
 
-### DB - PostgreSQL
+#### DB - PostgreSQL
 ```sql
 tags like '%pgsql%' 
 or tags like '%postgresql%'
 ```
 
-### DB - SQL Server
+#### DB - SQL Server
 ```sql
 tags like '%tsql%' 
 or tags like '%sql-server%'
 ```
 
-### DB - SQL (All)
+#### DB - SQL (All)
 ```sql
 (tags like '%sql%' 
 or tags like '%oracle%'
@@ -74,7 +74,7 @@ or tags like '%mariadb%')
 and tags not like '%nosql%'
 ```
 
-### DB - NoSQL (All)
+#### DB - NoSQL (All)
 ```sql
 tags like '%nosql%'
 or tags like '%mongodb%'
@@ -86,23 +86,23 @@ or tags like '%neo4j%'
 or tags like '%arangodb%'
 ```
 
-### Haskell
+#### Haskell
 ```sql
 tags like '%haskell%'
 ```
 
-### Go
+#### Go
 ```sql
 tags like '%<go>%'
 ```
 
-### HTML/CSS
+#### HTML/CSS
 ```sql
 tags like '%html%'
 or tags like '%css%'
 ```
 
-### Java
+#### Java
 ```sql
 (tags like '%java%' and tags not like '%javascript%')  -- java but not javascript
 or (tags like '%javascript%' and tags like '%java[^s]%')  -- java and javascript
@@ -115,14 +115,14 @@ or tags like '%hibernate%'
 or tags like '%dropwizard%'
 ```
 
-### Java (Mobile)
+#### Java (Mobile)
 ```sql
 tags like '%java%' 
 and tags like '%android%' 
 and tags not like '%kotlin%'
 ```
 
-### Javascript
+#### Javascript
 ```sql
 tags like '%javascript%' 
 or tags like '%jquery%' 
@@ -130,32 +130,32 @@ or tags like '%js>%' -- tag ends with js
 or tags like '%extjs%'  -- includes extjs4 and others
 ```
 
-### Julia
+#### Julia
 ```sql
 tags like '%julia%'
 ```
 
-### Kotlin
+#### Kotlin
 ```sql
 tags like '%kotlin%'
 ```
 
-### Objective-C
+#### Objective-C
 ```sql
 tags like '%objective-c%'
 ```
 
-### Perl
+#### Perl
 ```sql
 tags like '%<perl%'  -- starts with perl (excluding hyPERLink, ...)
 ```
 
-### PHP
+#### PHP
 ```sql
 tags like '%php%'
 ```
 
-### Python
+#### Python
 ```sql
 (tags like '%py%' and tags not like '%jupyter%' and tags not like '%copy%' and tags not like '%Capybara%' ) 
 or (tags like '%py[^t]%' and tags like '%jupyter%')  -- i.e. it is not just jupyter, it has something else py-like as well
@@ -166,51 +166,51 @@ or tags like '%django%'
 or tags like '%flask%'
 ```
 
-### R
+#### R
 ```sql
 tags like '%<r>%'
 or tags like '%rstudio%'
 or tags like '%shiny%'
 ```
 
-### Ruby
+#### Ruby
 ```sql
 tags like '%ruby%'
 ```
 
-### Rust
+#### Rust
 ```sql
 tags like '%rust%'
 ```
 
 
-### Scala
+#### Scala
 ```sql
 (tags like '%scala%' and tags not like '%scalability%') 
 or (tags like '%scala%' and tags like '%scalability%')
 ```
 
-### Swift
+#### Swift
 ```sql
 tags like '%swift%'
 ```
 
-### TypeScript
+#### TypeScript
 ```sql
 tags like '%typescript%'
 ```
 
-### VB.NET
+#### VB.NET
 ```sql
 tags like '%vb.net%'
 ```
 
 </p></details>
 
-### Remarks
+#### Remarks
 - The dashboard gets updated with new data at the beginnig of each month.
 - The ViewCount measure is lagging one month behind compared to the other two measures. This is because of the way ViewCount is calculated. More rexent data for ViewCount are noisy. One month lag normalizes the data.  
 This lag causes the Popularity Index be lagging one month behind as well, because it relies on all three measures.
 
-### Contribution 
+#### Contribution 
 If you have a suggestion or you want to report a bug report, please create an [issue](https://github.com/vvaezian/Popularity-of-Programming-Languages/issues).
