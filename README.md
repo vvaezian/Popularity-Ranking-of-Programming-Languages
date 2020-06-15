@@ -208,3 +208,6 @@ tags like '%vb.net%'
 - The dashboard gets updated with new data at the beginnig of each month.
 - The ViewCount measure is lagging one month behind compared to the other two measures. This is because of the way ViewCount is calculated. More rexent data for ViewCount are noisy. One month lag normalizes the data.  
 This lag causes the Popularity Index be lagging one month behind as well, because it relies on all three measures.
+
+### Contribution 
+If you have a suggestion or you want to report a bug report, please create an [issue](https://github.com/vvaezian/Popularity-of-Programming-Languages/issues).
