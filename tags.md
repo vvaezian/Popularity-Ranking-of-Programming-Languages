@@ -143,6 +143,26 @@ or tags like '%django%'
 or tags like '%flask%'
 ```
 
+#### Python (Data Science)
+```sql
+tags like '%scikit-learn%'
+or tags like '%pytorch%'
+or tags like '%pyspark%' 
+or tags like '%theano%'
+or tags like '%numpy%'
+or tags like '%scipy%'
+or tags like '%pandas%' 
+or tags like '%scrapy%'
+or (tags like '%py%' and ( tags like '%keras%' 
+                        or tags like '%tensorflow%'
+                        or tags like '%machine-learning%'
+                        or tags like '%deep-learning%'
+                        or tags like '%h2o%'
+                        or tags like '%artificial-intelligence%'
+                         )
+         )
+```
+
 #### R
 ```sql
 tags like '%<r>%'
