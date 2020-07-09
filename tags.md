@@ -138,9 +138,11 @@ tags like '%php%'
 or (tags like '%py[^t]%' and tags like '%jupyter%')  -- i.e. it is not just jupyter, it has something else py-like as well
 or (tags like '%py[^>-]%' and tags like '%copy%') 
 or tags like '%pandas%'
-or tags like '%keras%'
 or tags like '%django%'
 or tags like '%flask%'
+or tags like '%scikit-learn%'
+or tags like '%theano%'
+or tags like '%matplotlib%'
 ```
 
 #### Python (Data Science)
