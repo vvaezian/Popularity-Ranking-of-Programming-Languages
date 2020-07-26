@@ -34,6 +34,7 @@ or tags like '%plsql%'
 #### DB - PostgreSQL
 ```sql
 tags like '%pgsql%' 
+or tags like '%psql%'
 or tags like '%postgresql%'
 ```
 
