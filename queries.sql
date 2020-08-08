@@ -1,18 +1,17 @@
-### Popularity Index
-Average of the following three measures.
+-- Popularity Index
+-- Average of the following three measures.
 
-### Question Count
-```sql
+------------------------
+---- Question Count ----
+------------------------
 SELECT DATEADD(DAY, DATEDIFF(DAY, 0, creationdate), 0) date
   , '{}' programming_language
   , SUM(CASE WHEN tags LIKE '%{}%' then 1 else 0 end) question_count
 FROM posts 
 WHERE posttypeid = 1
 GROUP BY DATEADD(DAY, DATEDIFF(DAY, 0, creationdate), 0)
-```
 
-### View Count
-```sql
+-- View Count
 SELECT DATEADD(DAY, DATEDIFF(DAY, 0, creationdate), 0) date
   , '{}' programming_language
   , SUM(viewcount/(DATEDIFF(HOUR, creationdate, [latest_timestamp]) / 24.0)) avg_viewcount
@@ -20,10 +19,11 @@ FROM posts
 WHERE posttypeid = 1 
 AND tags LIKE '%{}%'
 GROUP BY DATEADD(DAY, DATEDIFF(DAY, 0, creationdate), 0)
-```
 
-### Distinct Users Count
-```sql
+
+------------------------------
+---- Distinct Users Count ----
+------------------------------
 WITH users AS (
   -- users who asked a question with the given tag
   SELECT DATEADD(DAY, DATEDIFF(DAY, 0, creationdate), 0) date, OwnerUserId user_id
@@ -59,9 +59,11 @@ WITH users AS (
 SELECT date, '{}' programming_language, COUNT(DISTINCT user_id) distinct_users_count
 FROM users
 GROUP BY date
-```
-### Total Distinct Users (Since 2010)
-```sql
+
+-------------------------------------------
+---- Total Distinct Users (Since 2010) ----
+--------------------------------------------
+
 with users as (
   -- users who asked a question with the given tag
   select distinct OwnerUserId user_id
@@ -100,6 +102,6 @@ with users as (
   where c.creationdate >= '2010-01-01'
     and p1.tags like '%{}%'
   )
-select distinct user_id
+select distinct '{}', user_id
 from users
-```
+
