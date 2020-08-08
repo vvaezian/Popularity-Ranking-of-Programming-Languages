@@ -9,7 +9,7 @@
 <details><summary>How are the Popularity Index and other measures calculated?</summary>
 <p>
 
-For the queries see the [queries.md](https://github.com/vvaezian/Popularity-of-Programming-Languages/blob/master/queries.md) file.
+For the queries see the [queries.sql](https://github.com/vvaezian/Popularity-of-Programming-Languages/blob/master/queries.sql) file.
   
   - **Popularity Index:** Average of three measures (explained below); Question Count, View Count, and Distinct Users.
   - **Question Count:** For each day the number of posts with the relevant tag is calculated. Then these numbers are averaged over the given granularity (Yearly, Quarterly, Monthly).
