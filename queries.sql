@@ -24,7 +24,7 @@ GROUP BY DATEADD(DAY, DATEDIFF(DAY, 0, CreationDate), 0)
 -- First we calculate the normalized view count for each programming language for each day
 SELECT DATEADD(DAY, DATEDIFF(DAY, 0, CreationDate), 0) date
   , '{}' programming_language
-  , SUM(ViewCount/(DATEDIFF(HOUR, creationdate, [latest_timestamp]) / 24.0)) ViewCount
+  , SUM(ViewCount/(DATEDIFF(HOUR, creationdate, [latest_timestamp]) / 24.0)) Normalized_ViewCount
 FROM Posts
 WHERE PostTypeId = 1 
 AND Tags LIKE '%{}%'
