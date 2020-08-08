@@ -1,5 +1,8 @@
--- Popularity Index
+---------------------------
+---- Popularity Index  ----
+---------------------------
 -- Average of the following three measures.
+
 
 ------------------------
 ---- Question Count ----
@@ -11,7 +14,10 @@ FROM posts
 WHERE posttypeid = 1
 GROUP BY DATEADD(DAY, DATEDIFF(DAY, 0, creationdate), 0)
 
--- View Count
+
+--------------------
+---- View Count ----
+--------------------
 SELECT DATEADD(DAY, DATEDIFF(DAY, 0, creationdate), 0) date
   , '{}' programming_language
   , SUM(viewcount/(DATEDIFF(HOUR, creationdate, [latest_timestamp]) / 24.0)) avg_viewcount
@@ -62,7 +68,7 @@ GROUP BY date
 
 -------------------------------------------
 ---- Total Distinct Users (Since 2010) ----
---------------------------------------------
+-------------------------------------------
 
 with users as (
   -- users who asked a question with the given tag
