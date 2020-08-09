@@ -13,7 +13,7 @@ For the queries see the [queries.sql](https://github.com/vvaezian/Popularity-of-
   
   - **Popularity Index:** Average of three measures (explained below); Question Count, View Count, and Distinct Users.
   - **Question Count:** For each day the number of posts with the relevant tag is calculated. Then these numbers are averaged over the given granularity (Yearly, Quarterly, Monthly).
-  - **Average ViewCount:** We have the ViewCount of posts with the relevant tags. Each post's viewcount is divided by the number of days it has been posted, which results in a normalized ViewCount of that post. For each day the normalized ViewCounts of all posts with the relevant tag is calculated, and then these numbers are averaged over the given granularity (Yearly, Quarterly, Monthly).
+  - **Normalized ViewCount:** We have the ViewCount of posts with the relevant tags. Each post's viewcount is divided by the number of days it has been posted, which results in a normalized ViewCount of that post. For each day the normalized ViewCounts of all posts with the relevant tag is calculated, and then these numbers are averaged over the given granularity (Yearly, Quarterly, Monthly).
   - **Distinct Users:** In each day the number of distinct users who had an activity in the relevant tags (posted/answered a question, made a comment/edit) is calculated. Then these numbers are averaged over the given granularity (Yearly, Quarterly, Monthly).
   - **Total Question:** Total number of questions with the relevant tags. The granularity filter doesn't apply to this card.
   - **Total Views:** Total number of views for the questions with the relevant tags. The granularity filter doesn't apply to this card.
