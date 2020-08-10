@@ -10,9 +10,10 @@
 -- First we calculate question count for each programming language for each day
 SELECT DATEADD(DAY, DATEDIFF(DAY, 0, CreationDate), 0) Date
   , '{}' Programming_Language
-  , SUM(CASE WHEN Tags LIKE '%{}%' THEN 1 ELSE 0 END) Question_Count
+  , COUNT(*) Question_Count
 FROM Posts 
 WHERE PostTypeId = 1
+AND Tags LIKE '%{}%'
 GROUP BY DATEADD(DAY, DATEDIFF(DAY, 0, CreationDate), 0)
 
 --Then we average over the given granularity (Yearly/Quarterly/Monthly) 
