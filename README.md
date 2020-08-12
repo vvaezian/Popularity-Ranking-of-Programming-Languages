@@ -29,8 +29,8 @@ See the [tags.md](https://github.com/vvaezian/Popularity-of-Programming-Language
 
 ### Remarks
 - The dashboard gets updated with new data at the beginnig of each month.
-- The ViewCount measure is lagging one month behind compared to the other two measures. This is because of the way ViewCount is calculated. More recent data for ViewCount is high-variance. One month lag reduces the variance.  
-This lag causes the Popularity Index be lagging one month behind as well, because it relies on all the three measures.
+- The Normalized ViewCount measure is lagging one month behind compared to the other two measures. This is because more recent data for normalized ViewCount has high variance. One month lag reduces the variance.  
+This lag causes the Popularity Index to lag one month behind as well, because it relies on all the three measures.
 
 ### Contribution 
 If you have a suggestion or you want to report a bug, please create an [issue](https://github.com/vvaezian/Popularity-of-Programming-Languages/issues).
